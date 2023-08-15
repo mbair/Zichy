@@ -115,7 +115,7 @@
       }
     }
   },
-  "defaultProject": "sakai-ng",
+  "defaultProject": "Zichy",
   "cli": {
     "analytics": false,
     "schematicCollections": [
