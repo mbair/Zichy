@@ -44,7 +44,7 @@ export class AppMenuComponent implements OnInit {
                 items: [
                     { label: 'Ételek', icon: 'pi pi-fw pi-pencil', routerLink: ['/pages/etelek'] },
                     { label: 'Ételérzékenységek', icon: 'pi pi-fw pi-pencil', routerLink: ['/pages/food-sensitivities'] },
-                    { label: 'Étel Voucher', icon: 'pi pi-fw pi-pencil', routerLink: ['/pages/crud'] },
+                    { label: 'Étel Voucher', icon: 'pi pi-fw pi-pencil', routerLink: ['/pages/food-vouchers'] },
                 ]
             },
             {
