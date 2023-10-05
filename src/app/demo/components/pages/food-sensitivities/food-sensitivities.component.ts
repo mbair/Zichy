@@ -57,49 +57,19 @@ export class FoodSensitivitiesComponent implements OnInit {
         this.FoodSensitivities = [
             {
                 id: '1',
-                szobaszam: '101',
-                szobakod: 'MD',
-                agyakszama: '2',
-                epulet: 'Maranatha fsz',
-                agytipus: 'kétágyas',
-                megjegyzes: 'kapcs.: 102',
+                name: 'Laktóz intolerancia',
+                enabled: true,
             },
             {
                 id: '2',
-                szobaszam: '102',
-                szobakod: 'MB',
-                agyakszama: '4',
-                epulet: 'Maranatha fsz',
-                agytipus: 'emeletes ágy',
-                megjegyzes: 'kapcs.: 101',
+                name: 'Glutén intolerancia',
+                enabled: true,
             },
             {
                 id: '3',
-                szobaszam: '103',
-                szobakod: 'MQ',
-                agyakszama: '2',
-                epulet: 'Maranatha fsz',
-                agytipus: 'franciaágy',
-                megjegyzes: 'kapcs.: 104',
+                name: 'Tojás intolerancia',
+                enabled: true,
             },
-            {
-                id: '4',
-                szobaszam: '104',
-                szobakod: 'MB',
-                agyakszama: '4',
-                epulet: 'Maranatha fsz',
-                agytipus: 'emeletes ágy',
-                megjegyzes: 'kapcs.: 103',
-            },
-            {
-                id: '5',
-                szobaszam: '105',
-                szobakod: 'MD',
-                agyakszama: '2',
-                epulet: 'Maranatha fsz',
-                agytipus: 'kétágyas',
-                megjegyzes: 'kapcs.: 106',
-            }
         ]
     }
 
