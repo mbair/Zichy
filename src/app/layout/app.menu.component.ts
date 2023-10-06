@@ -40,7 +40,7 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
-                label: 'Étterem új',
+                label: 'Étterem',
                 items: [
                     {
                         label: 'Ételek',
